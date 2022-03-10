@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="../music_css/music.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="menu_bar_div">
+            <div class="home">
+                 <ion-icon name="home-outline"></ion-icon> 
+                 <p>Home</p> 
+                </div>
+            <div class="category">
+                <ion-icon name="layers-outline"></ion-icon>
+                <p>Category</p>
+            </div> 
+            <div class="album">
+                <ion-icon name="copy-outline"></ion-icon>
+                <p>Album</p>
+            </div> 
+            <div class="menu"><ion-icon class="menu_left_icon" name="reorder-three-outline" value=""></ion-icon></div> 
+        </div>
+
+        <div class="right_container">
+
+            <div class="main">
+
+                <div class="section1">
+                    <h2 class="song_heading">Heading</h2>
+                    <p class="song_text">Lorem ipsum dolor sit amet.</p>
+                </div>
+    
+                <div class="recent_heading">
+                    <p class="recent_head">New Releases for you</p>
+                    <p class="recent_head_text">Enjoy some new awesome music</p>
+                
+                    <div class="recent_songs">
+
+                        
+                        
+                    </div>
+                    <div class="prev_recent_div"><ion-icon class="prev_recent" name="caret-back-outline"></ion-icon></div>
+                    <div class="next_recent-div"><ion-icon class="next_recent" name="caret-forward-outline"></ion-icon></div>
+                </div>
+    
+            </div>
+    
+            
+    
+            <div class="popular_div">
+                <div class="popular_hover rock">Rock</div>
+                <div class="popular_hover pop">pop</div>
+                <div class="popular_hover jazz">Jazz</div>
+                <div class="popular_hover classic">Classic</div>
+                <div class="popular_hover retro">Retro</div>
+            </div>
+
+            <div class="wrapper_container">
+
+                <div class="wrpr rock_wrapper"></div>
+                <div class="wrpr pop_wrapper"></div>
+                <div class="wrpr jazz_wrapper"></div>
+                <div class="wrpr classic_wrapper"></div>
+                <div class="wrpr retro_wrapper"></div>
+                
+
+            </div>
+
+    
+    
+    
+            
+
+        </div>
+        
+        
+
+    </div>
+    <!-- <audio controls >
+        <source src="https://jiotunepreview.jio.com/content/Converted/010910090844274.mp3">
+    </audio> -->
+    <div class="player_bottom">
+    
+        <audio controls class="audio-div" autoplay>
+            <source class="player" src=" " ></source>
+        </audio>
+
+    </div>
+
+    <script src="../music_js/music.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

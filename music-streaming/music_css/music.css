@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(212, 209, 209);
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.938);
+}
+body ion-icon{
+    font-size: 1.8rem;
+}
+.container{
+    display: flex;
+}
+.menu_bar_div{
+    width: 4%;
+    height: 100vh;
+    background-color: rgb(56 56 58);
+    position: fixed;
+    padding-top: 3rem;
+}
+.menu_bar_div ion-icon{
+    font-size: 1.5rem;
+    margin-top:1rem ;
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+.right_container{
+    width: 100%;
+}
+.main{
+    background-image: url(../music_media/section1_bgi.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+    text-align: center;
+}
+.section1{
+    width: 100%;
+    height: 20rem;
+    text-align: center;
+}
+.recent_songs{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+.recent_songs::-webkit-scrollbar{
+    visibility: hidden;
+}
+.recent_container{
+    width: 10rem;
+    background-color: black;
+    margin: 1.2rem;
+}
+.recent_boxes{
+    width: 8.5rem;
+    height: 8.5rem;
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: auto;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: red;
+}
+.recent_img{
+    width: 100%;
+}
+.recent_text{
+    font-size: 0.8rem;
+    padding-top: 0.4rem;
+    overflow: hidden;
+}
+.recent_head{
+    padding: 1rem 0rem 0.1rem 3rem;
+    text-align: left;
+}
+.recent_head_text{
+    padding: 0.1rem 0rem 1rem 3rem;
+    text-align: left;
+    font-size: 0.7rem;
+}
+.recent_heading{
+    margin-left: 5rem;
+}
+.next_recent{
+    font-size: 2rem;
+    color: red;
+    position: absolute;
+    top: 29rem;
+    left: 74rem;
+    cursor: pointer;
+    
+}
+.prev_recent{
+    font-size:2rem;
+    color: red;
+    position: absolute;
+    top: 29rem;
+    left: 8rem;
+    cursor: pointer;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 35%;
+    display: none;
+}
+.overlay_icon_div{
+    position: absolute;
+}
+.overlay_icon_div ion-icon{
+    margin: 0px 0.1rem 0px 0.5rem;
+    font-size: 1.8rem;
+}
+.audio-div{
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    bottom: 0px;
+}
+.player{
+    background-color: rgb(80, 78, 78);
+}
+
+.popular_div{
+    margin-left: 10rem;
+    display: flex;
+    margin-top: 20rem;
+}
+.popular_div div{
+    margin:0.5rem 1rem;
+}
+
+.wrapper_container{
+    margin-left: 10rem;
+    padding-top: 2rem;
+    width: 70%;
+    height: 36rem;
+    background-color: rgb(56 56 58);
+    overflow: hidden;
+}
+.rock_container{
+    display: flex;
+    margin: 1rem;
+}
+.rock_container div{
+    margin: 0.5rem;
+    align-items: center;
+}
+.rock_img{
+    width: 4rem;
+    height: 4rem;
+}
+.rock_boxes{
+    cursor: pointer;
+}
+.popular_hover:hover{
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.classic_wrapper{
+    display: grid;
+    grid-template-columns: repeat(4fr,1fr);
+}
+.classic_container{
+    display: inline-block;
+    width: 10rem;
+    height: 12rem;
+    overflow: hidden;
+    position: relative;
+}
+.classic_container{
+    margin: 1rem;
+}
+.classic_icon{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+.classic_img{
+    cursor: pointer;
+}
+.menu_left_icon{
+    margin-top: 17rem !important;
+}
+
+.menu_bar_div div{
+    display: flex;
+}
+.menu_bar_div p{
+    display: none;
+    padding-top: 1.2rem;
+    padding-left: 1rem;
+}
